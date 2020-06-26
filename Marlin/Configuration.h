@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#pragma once  // Shizzy713 6/23/2020
+#pragma once  // Shizzy713 6/26/2020
 
 /**
  * Configuration.h
@@ -1699,7 +1699,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-#define SD_CHECK_AND_RETRY
+//#define SD_CHECK_AND_RETRY
 
 /**
  * LCD Menu Items
