@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Basic Bitch V1.1"
+#define CUSTOM_MACHINE_NAME "BasicBitchV1.2"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Creality Ender-3
-  #define DEFAULT_Kp 18.77  // last update 6/5/20
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 81.62
+  #define DEFAULT_Kp 19.64  // last update 7/1/2020
+  #define DEFAULT_Ki 1.15
+  #define DEFAULT_Kd 83.86
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -744,7 +744,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.92, 79.8, 399.18, 93.35 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.91, 79.71, 399.36, 98.45 } // updated 7/1/2020
 
 /**
  * Default Max Feed Rate (mm/s)
