@@ -19,7 +19,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#pragma once  // Shizzy713 6/26/2020
+#pragma once  // Shizzy713 7/3/2020
 
 /**
  * Configuration.h
@@ -71,7 +71,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(Shizzy713, Ender_3, BTT_SKR_mini_E3_V2_0, TH3D EZABL)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Shizzy713, Ender_3, BTT_SKR_mini_E3_V2_0, TH3D_EZABL)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "BasicBitchV1.2"
+#define CUSTOM_MACHINE_NAME "Basic Bitch 1.2"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
