@@ -132,7 +132,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender 3 V1.7" // M115 to confirm current version
+#define CUSTOM_MACHINE_NAME "Marlin V 2.0.6.1" // M115 to confirm current version
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -490,9 +490,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Creality Ender-3 Hotend
-  #define DEFAULT_Kp 19.15  // last update 7/3/2020
-  #define DEFAULT_Ki 1.20
-  #define DEFAULT_Kd 76.38
+  #define DEFAULT_Kp 18.60  // last update 8/11/2020
+  #define DEFAULT_Ki 1.25
+  #define DEFAULT_Kd 69.35
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -541,10 +541,12 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-    // Creality Ender-3 Bed
-  #define DEFAULT_bedKp 91.42  // last update 7/3/2020
-  #define DEFAULT_bedKi 17.82
-  #define DEFAULT_bedKd 312.68
+ 
+  // Creality Ender-3 Bed
+  #define DEFAULT_bedKp 123.79  // last update 8/11/2020
+  #define DEFAULT_bedKi 24.13
+  #define DEFAULT_bedKd 423.44
+ 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
   //#define DEFAULT_bedKp 97.1
