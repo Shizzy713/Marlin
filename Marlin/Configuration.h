@@ -131,7 +131,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "2.0.7.2 V9"
+#define CUSTOM_MACHINE_NAME "2.0.7.2 V10"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -495,13 +495,13 @@
   #if ENABLED(PID_PARAMS_PER_HOTEND)
     // Specify between 1 and HOTENDS values per array.
     // If fewer than EXTRUDER values are provided, the last element will be repeated.
-    #define DEFAULT_Kp_LIST {  18.60,  22.20 }
-    #define DEFAULT_Ki_LIST {   1.25,   1.08 }
-    #define DEFAULT_Kd_LIST {  69.35, 114.00 }
+    #define DEFAULT_Kp_LIST {  20.04,  22.20 }
+    #define DEFAULT_Ki_LIST {   1.32,   1.08 }
+    #define DEFAULT_Kd_LIST {  75.90, 114.00 }
   #else
-    #define DEFAULT_Kp  18.60
-    #define DEFAULT_Ki   1.25
-    #define DEFAULT_Kd  69.35
+    #define DEFAULT_Kp  20.04
+    #define DEFAULT_Ki   1.32
+    #define DEFAULT_Kd  75.90
   #endif
 #endif // PIDTEMP
 
@@ -540,9 +540,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 123.79
-  #define DEFAULT_bedKi  24.13
-  #define DEFAULT_bedKd 423.44
+  #define DEFAULT_bedKp  81.81
+  #define DEFAULT_bedKi  15.95
+  #define DEFAULT_bedKd 279.81
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBEDf
@@ -741,7 +741,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.91, 79.71, 399.36, 98.18 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.91, 79.71, 399.36, 99.60 }
 
 /**
  * Default Max Feed Rate (mm/s)
